@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Contact Info Styling */
+#contact-info, #phone5 {
+    color: white;
+}
+
+#contact-info a, #phone5 a {
+    color: white;
+    text-decoration: none;
+}
+
+#contact-info a:hover, #phone5 a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+#profile-name {
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #3700b3;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal; /* Changed to normal */
+}
+
+nav ul li a:hover {
+    font-weight: bold; /* Changed to bold */
+    text-decoration: underline; /* Added underline */
+}
+
+/* About Section */
+#about {
+    padding: 20px;
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#about p {
+    max-width: 600px;
+}
+
+/* Skills Section */
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.skill {
+    text-align: center;
+}
+
+
+.skill img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+/* Recommendations Section */
+#recommendations {
+    padding: 20px;
+}
+
+.recommendation {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Popup */
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #6200ea;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Form Styling */
+.recommendation-form {
+    margin-top: 20px;
+}
+
+#recommendation-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#recommendation-form input,
+#recommendation-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#recommendation-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#recommendation-form button:hover {
+    background-color: #0056b3;
+}
+
+#scrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    display: none; /* Hidden by default */
+}
+
+#scrollToTopButton:hover {
+    background-color: #f00505; /* Optional - change color on hover */
+}

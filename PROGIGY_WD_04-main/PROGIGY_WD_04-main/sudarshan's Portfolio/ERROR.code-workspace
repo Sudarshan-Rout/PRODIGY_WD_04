@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../ERROR"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PROGIGY_WD_04-main"
+	}
+}
